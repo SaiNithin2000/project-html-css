@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <form>
+        <label for="name">FULL NAME</label>
+        <input type="text" id="name" name="name" maxlength="20">
+        <label>(max 20 char a-z and A-Z</label>
+        <br>
+        <label for="lname">LAST NAME</label>
+        <input type="lname" id="lname" name="lname" maxlength="20">
+        <label>(max 20 char a-z and A-Z)</label>
+        <br>
+        <label for="dob">DATE OF BIRTH</label>
+        <input type="date" name="dob" name="dob">
+        <br>
+        <label for="radio">GENDER</label>
+        <input type="radio" id="radio" name="radio">male
+        <input type="radio" id="radio" name="radio">female
+        <br>
+        <label for="num">MOBILE NO</label>
+        <input type="tel" id="num" name="num" required>
+        <br>
+        <label for="add">ADDRESS</label>
+        <textarea></textarea>
+        <br>
+        <label for="city">CITY</label>
+        <input type="text" id="city" name="city">
+        <label for="city">(max 20 char a-z and A-Z)</label>
+        <br>
+        <label for="pin">PIN CODE</label>
+        <input type="tel" id="pin" name="pin">
+        <label for="pin">(6 digit number)</label>
+        <br>
+        <label for="state">STATE</label>
+        <input type="text" id="state" name="state">
+        <br>
+        <label for="con">COUNTRY</label>
+        <input type="text" id="con" name="con">
+        <br>
+        <label for="hob">HOBBIES</label>
+        <input type="checkbox" id="hob" name="hob">Drawing
+        <input type="checkbox" id="hob" name="hob">Singing
+        <input type="checkbox" id="hob" name="hob">Dancing
+        <br>
+        <input type="checkbox" id="hob" name="hob">Others 
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="hob" name="hob">
+        <br>
+        <label for="edu">QUALIFICATION</label>
+        <table  cellpadding="20" cellspacing="10" border="2">
+            <caption>sl.no.Examination &nbsp;&nbsp;&nbsp;&nbsp;</caption>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <tr>
+                <td></td>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>year of passing</th>
+            </tr>
+            <tr>
+                <td>01 Class X</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>02 Class II</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>03 Graduation</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>04 Master</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <label for="type">COURSES APPLIED FOR</label>
+        <input type="checkbox" id="type" name="type">BCA
+        <input type="checkbox" id="type" name="type">B.COM
+        <input type="checkbox" id="type" name="type">B.SC
+        <input type="checkbox" id="type" name="type">B.A
+        <br><br>
+        <input type="submit" >
+        <input type="reset">
+
+    </form>
+</body>
+</html>

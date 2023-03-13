@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        div{
+            height: 150px;
+            width: 300px;
+            margin: 200px;
+            background-color: yellow;
+            border: 5px solid red;
+            border-radius: 30px;
+            /* transform: translate(x-axis,y-axis); */
+            /* transform: translate(100px , 200px); */
+            /* transform: rotate(-45deg); */
+            /* transform: scale(width,heigth); */
+            /* transform: skew(x,y); */
+            transform: skew(50deg,-20deg);
+
+        }
+         div:hover{
+            transform: scale(2,5);
+        } 
+    </style>
+</head>
+<body>
+    <!-- the transform property in css used to change or add
+    some effects to an elements like rotate,skew,scale,translate
+     -->
+     <!-- 1.translate: it moves an element from its currecnt position
+    towards its x-axis and y-axis value -->
+    <!-- 2.rotate: it will rotate the element clockwise or anti-clockwise
+    according to given degree value -->
+    <!-- 3.scale: this method will increase the height and width
+    according to given value -->
+    <!-- 4.skew: it will skew an element along it x-axis and y-axis  
+    which values will be given in degrees -->
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tempore assumenda repudiandae quidem. Consequatur hic ad 
+        debitis, dicta dolorem eius deserunt numquam eos delectus, 
+        voluptas vitae labore possimus doloremque distinctio exercitationem.
+    </div>
+</body>
+</html>

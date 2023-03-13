@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.headerblock{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+.headerblock .pa{
+    /* border: 2px solid white; */
+    width: 250px;
+}
+.headerblock .iconheader{
+    /* border: 2px solid white; */
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainnav{
+    background-color: gray;
+    height: 65px;
+}
+.mainnav .subnav{
+    height: 65px;
+    width: 90%;
+    margin:0 auto;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+.subnav .logoblock{
+    height: 65px;
+    /* border: 2px solid white; */
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.subnav .navigator{
+    height: 65px;
+    /* border: 2px solid yellow; */
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.subnav .navigator a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: x-large;
+    font-style: italic;
+}
+.subnav .navigator a:hover{
+    color: rgb(114, 161, 114);
+    text-decoration: overline;
+}
+.subnav .signup{
+    height: 65px;
+    /* border: 2px solid yellow; */
+    width: 15%;
+    font-size: x-large;
+    font-style: italic;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subnav .contact{
+    height: 65px;
+    /* border: 2px solid yellow; */
+    width: 15%;font-size: x-large;
+    font-style: italic;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.drop{
+    height: 110px;
+    width: 200px;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px 20px;
+    display: none;
+    position: absolute;
+}
+.contact:hover>.drop{
+    display: block;
+    position: absolute;
+    top: 95px;
+    padding-top: 20px;
+    padding-left: 15px;
+    z-index: 1;
+}
+.contentblock{
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: gray;
+    margin-top: -15px;
+}
+.aboutus{
+    background-color: gray;
+    color: antiquewhite;
+    font-size: xx-large;
+    padding-left: 200px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+.contentblock .contentblock1{
+    height: 300px;
+    width: 600px;
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    font-style: oblique;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: 5px 7px 15px aquamarine;
+}
+.contentblock .contentblock2{
+    border: 25px solid rgb(217, 212, 204);
+}
+.service{
+    background-color: black;
+    color: antiquewhite;
+    font-weight: 600;
+    font-size: xx-large;
+    padding-left: 150px;
+    padding-top: 25px;
+    text-decoration: overline;
+}
+.cardblock{
+    background-color: black;
+    color: antiquewhite;
+    height: 500px;
+    /* border: 2px solid red; */
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.t{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 380px;
+    box-shadow: 3px 5px 8px azure;
+    border-radius: 30px;
+    animation: transport;
+    animation-duration: 15s;
+    animation-delay: 1s;
+}
+@keyframes transport {
+    15%{
+        margin-left: 150px;
+    }
+    50%{
+        margin-right: 150px;
+    }
+    
+}
+.t:hover{
+    transition-duration: 10s;
+    transition-delay: 1s;
+    transform: skewX(25deg);
+}
+.t>h3{
+    padding-top: 5px;
+    padding-left: 35px;
+    font-style: oblique;
+}
+.t p{
+    padding-left: 35px;
+}
+.t button{
+    height: 45px;
+    width: 100%;
+    background: linear-gradient(white,grey,rgb(63, 59, 59));
+    border: 2px solid rgb(162, 151, 151);
+}

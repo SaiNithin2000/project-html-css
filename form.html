@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ADMISSION</h1>
+    <form>
+        <fieldset>
+            <legend>ADMISSION FORM</legend>
+        <!-- for and id attributes helps to direct to particular
+        text fields -->
+        <label for="NAME">NAME &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </label>
+        <input type="text" id="NAME" name="stname">
+        <br>
+        <br>
+        <label for="dob">DOB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        </label>
+        <input type="date" id="dob" name="dob">
+        <br>
+        <br>
+        <label for="mail">Email ID &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+        </label>
+        <input type="email" id="mail" name="mail"> 
+        <br>
+        <br>
+        <label for="contact">CONTACT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </label>
+        <input type="tel" id="contact" name="contact" maxlength="10" minlength="10">
+        <br>
+        <br>
+        <label for="gender">GENDER &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="radio" id="gender" name="gender" value="male">MALE
+        <input type="radio" id="gender" name="gender" value="female">FEMALE
+        <br>
+        <br>
+        <label for="skill">SKILLS</label>
+        <input type="checkbox" id="skill" name="skill" value="java">JAVA
+        <input type="checkbox" id="skill" name="skill" value="python">PYTHON
+        <input type="checkbox" id="skill" name="skill" value="springs">SPRINGS
+        <input type="checkbox" id="skill" name="skill" value="django">DJANGO
+        <input type="checkbox" id="skill" name="skill" value="sql">SQL
+
+        <br>
+        <br>
+        <label for="state">PREFERRED LOCATION</label>
+        <!-- <select name="state" id="state"> -->
+                <!-- <option value="h">HYDERABAD</option> -->
+                <!-- <option value="b">BANGLORE</option> -->
+                <!-- <option value="c">CHENNAI</option> -->
+        <!-- </select> -->
+        <br>
+        <br>
+        <select>
+        <optgroup label="HYD">
+            <option value="J">JNTU</option>
+            <optgroup value="D">DILSHUKNAGAR</optgroup>
+        </optgroup>
+        <optgroup label="BAN">
+            <option value="B">BAS</option>
+            <option value="T">BTR</option>
+        </optgroup>
+    </select>
+    <br>
+    <br>
+    <label for="ADDR">ADDRESS
+    </label>
+    <textarea></textarea>
+    <br>
+    <br>
+    <label for="education">EDUCATION DOCUMENTS</label>
+    <input type="file" id="education" name="eduaction">
+    <br><br>
+    <label for="image">UPLOAD IMAGE</label>
+    <input type="file" id="image" name="image" title="image size 2">
+     <br><br>
+    <label for="purl">PROJECT URL</label>
+    <input type="url" for="purl" name="purl">
+    <br><br>
+    <label for="pwd">CREATE PASSWORD</label>
+    <input type="password" id="pwd" name="pwd">
+    <br><br>
+    <label for="pwd">REENTER PASSWORD</label>
+    <input type="password" id="pwd" name="pwd">
+    <label for="sea">SEARCH</label>
+    <input type="search" id="sea">
+    <br><br>
+    <label for="count">SKILLS</label>
+    <input type="range" for="count">
+
+    <hr>
+        <input type="submit">
+    </fieldset>
+    </form>
+</body>
+</html> 
